@@ -8,14 +8,27 @@ var anAdjective = prompt('An adjective (beautiful, super, etc.)');
 
 var aVerb = prompt('A past tense verb (ran, burped, etc.)');
 
-var story = prompt('Which story would you like?');
+var story = prompt('Which story would you like? a) Snacking b) Escaping c) Winning Enter the letter below:');
 
-var story = function () {
-  document.write('After snacking on');
-  document.write(anAdjective);
-  document.write('treats, the');
-  document.write(colour);
-  document.write('bellied');
-  document.write(aCreature + aVerb);
-  document.write('for hours.');
+switch (story) {
+
+case 'a':
+var a = function () {
+  document.write('a');
+};
+
+break;
+
+case 'b':
+var a = function () {
+  document.write('b');
+};
+
+break;
+
+case 'c':
+var a = function () {
+  document.write('c');
+};
+break;
 };
